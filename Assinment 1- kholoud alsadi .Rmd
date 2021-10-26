@@ -1,0 +1,29 @@
+---
+title: "Assignment 2"
+author: "Kholoud Alsadi"
+date: "10/26/2021"
+output: word_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+## R Markdown
+
+*Data summary of the data trees and the mean of the variable Girth.* 
+
+
+```{r trees}
+summary(trees)
+mean(trees$Girth)
+```
+
+##  Plots:
+**this a histogram that discribe the trees height and their frequancies.** 
+
+
+```{r trees2, echo=FALSE}
+hist(trees$Height)
+```
+
