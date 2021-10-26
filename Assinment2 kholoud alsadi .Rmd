@@ -27,3 +27,14 @@ mean(trees$Girth)
 hist(trees$Height)
 ```
 
+
+# Omama
+The boxplot for the Height variable is symmetric, while those for Girth and Volume are right skewed, and there is one outlier on the Volume boxplot.
+```{r trees3, echo=FALSE}
+par(mfrow=c(1, 3))
+boxplot(trees$Girth, main="Girth")
+boxplot(trees$Height, main="Height")
+boxplot(trees$Volume, main="Volume")
+par(mfrow=c(1, 1))
+```
+
