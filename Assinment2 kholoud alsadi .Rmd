@@ -60,3 +60,13 @@ str(trees)
 ```
 
 
+
+     
+#  Nour  
+**adding the head data, and plotting the histogram of Volume data.**  
+
+```{r, echo=FALSE}
+head(trees)
+hist(trees$Volume, xlab = "Volume", main = "Histogram of Volume data")
+```
+
